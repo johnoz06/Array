@@ -39,14 +39,14 @@ end
 
 def menu
     print "\a"
-    puts "Choisi ta fonction souhaité avec le numéro qui précède :"
+    puts "Choisie une fonction souhaité avec le numéro qui précède :"
     puts "÷-------------------------------------------÷"
     puts "1.La plus grosse valeur"
     puts "2.La plus petite valeur"
     puts "3.Les devises inférieur à 6000"
     puts "4.La devise la plus chère dont le cours > 6000"
     puts "÷-------------------------------------------÷"
-    print "Quelle fonction désire-tu? >"
+    print "Quelle fonction désires-tu? >"
     menu = gets.chomp.to_i
 
     if menu == 1
@@ -62,15 +62,11 @@ def menu
         crypt_price
     end
     if menu >= 5
-        puts "Tu as besoin que je t'achete des lunettes? UN NUMERO BORDEL"
+        puts "Try again mate"
     end
     if menu <= 0
-        puts "Tu as besoin que je t'achete des lunettes? UN NUMERO BORDEL"
+        puts "For real, between 1 & 4 please"
     end
-    puts "÷---------------------------------------------÷"
-    puts "  Coucouille! Paye ma formation THP par PayPal"
-    puts "÷---------------------------------------------÷"
-    print "\a"
 end
 
 menu

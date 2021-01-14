@@ -151,21 +151,12 @@ def menu
     end
     if menu >= 11
         sleep 0.2
-        puts "Tu as besoin que je t'achete des lunettes? UN CHIFFRE BORDEL"
+        puts "Try again"
     end
     if menu <= 0
         sleep 0.2
-        puts "Tu as besoin que je t'achete des lunettes? UN CHIFFRE BORDEL"
+        puts "Come on mate"
     end
-    sleep 0.2
-    puts "÷-------------------------------------------÷"
-    sleep 0.2
-    puts "  On dit Merci qui?"
-    sleep 0.2
-    puts "  Merci Jackie & Michel!"
-    puts "÷-------------------------------------------÷"
-    sleep 0.2
-    print "\a"
 end
 
 menu
